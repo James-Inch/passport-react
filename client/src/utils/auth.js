@@ -1,5 +1,5 @@
 class Auth {
-	static onAuthChangeCallback = null;
+	static  = null;
 
 	static login(token) {
 		localStorage.setItem("token", token);

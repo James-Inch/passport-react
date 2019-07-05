@@ -8,9 +8,9 @@
   integrity sha512-Xqg/lIZMrUd0VRmSRbCAewtwGZiAk3mEUDvV4op1tGl+LvyPcb/MIOSxTl9z+9+J+R4/vpjiCAT4xeKzH9ji1w==
 
 "@types/node@*":
-  version "10.12.12"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-10.12.12.tgz#e15a9d034d9210f00320ef718a50c4a799417c47"
-  integrity sha512-Pr+6JRiKkfsFvmU/LK68oBRCQeEg36TyAbPhc2xpez24OOZZCuoIhWGTd39VZy6nGafSbxzGouFPTFD/rR1A0A==
+  version "12.0.12"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-12.0.12.tgz#cc791b402360db1eaf7176479072f91ee6c6c7ca"
+  integrity sha512-Uy0PN4R5vgBUXFoJrKryf5aTk3kJ8Rv3PdlHjl6UaX+Cqp1QE0yPQ68MPXGrZOfG7gZVNDIJZYyot0B9ubXUrQ==
 
 abbrev@1:
   version "1.1.1"
@@ -181,9 +181,9 @@ binary-extensions@^1.0.0:
   integrity sha512-DYWGk01lDcxeS/K9IHPGWfT8PsJmbXRtRd2Sx72Tnb8pcYZQFF1oSDb8hJtS1vhp212q1Rzi5dUf9+nq0o9UIg==
 
 bluebird@^3.4.6, bluebird@^3.5.0:
-  version "3.5.3"
-  resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.5.3.tgz#7d01c6f9616c9a51ab0f8c549a79dfe6ec33efa7"
-  integrity sha512-/qKPUQlaW1OyR51WeCPBvRnAlnZFUJkCSG5HzGnuIqhgyJtF+T94lFnn33eiazjRm2LAHVy2guNnaq48X9SJuw==
+  version "3.5.5"
+  resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.5.5.tgz#a8d0afd73251effbbd5fe384a77d73003c17a71f"
+  integrity sha512-5am6HnnfN+urzt4yfg7IgTbotDjIT/u8AJpEt0sIU9FtXfVeezXAPKswrG+xKUCOYAINpSdgZVDU6QFh+cuH3w==
 
 body-parser@1.18.3, body-parser@^1.18.3:
   version "1.18.3"
@@ -905,10 +905,10 @@ generate-function@^2.3.1:
   dependencies:
     is-property "^1.0.2"
 
-generic-pool@^3.4.0:
-  version "3.4.2"
-  resolved "https://registry.yarnpkg.com/generic-pool/-/generic-pool-3.4.2.tgz#92ff7196520d670839a67308092a12aadf2f6a59"
-  integrity sha512-H7cUpwCQSiJmAHM4c/aFu6fUfrhWXW1ncyh8ftxEPMu6AiYkHw9K8br720TGPZJbk5eOH2bynjZD1yPvdDAmag==
+generic-pool@3.5.0:
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/generic-pool/-/generic-pool-3.5.0.tgz#acac4fd743a175ff20574f380910036464cb61f7"
+  integrity sha512-dEkxmX+egB2o4NR80c/q+xzLLzLX+k68/K8xv81XprD+Sk7ZtP14VugeCz+fUwv5FzpWq40pPtAkzPRqT8ka9w==
 
 get-stream@^3.0.0:
   version "3.0.0"
@@ -1606,16 +1606,16 @@ mkdirp@^0.5.0, mkdirp@^0.5.1:
     minimist "0.0.8"
 
 moment-timezone@^0.5.14:
-  version "0.5.23"
-  resolved "https://registry.yarnpkg.com/moment-timezone/-/moment-timezone-0.5.23.tgz#7cbb00db2c14c71b19303cb47b0fb0a6d8651463"
-  integrity sha512-WHFH85DkCfiNMDX5D3X7hpNH3/PUhjTGcD0U1SgfBGZxJ3qUmJh5FdvaFjcClxOvB3rzdfj4oRffbI38jEnC1w==
+  version "0.5.25"
+  resolved "https://registry.yarnpkg.com/moment-timezone/-/moment-timezone-0.5.25.tgz#a11bfa2f74e088327f2cd4c08b3e7bdf55957810"
+  integrity sha512-DgEaTyN/z0HFaVcVbSyVCUU6HeFdnNC3vE4c9cgu2dgMTvjBUBdBzWfasTBmAW45u5OIMeCJtU8yNjM22DHucw==
   dependencies:
     moment ">= 2.9.0"
 
 "moment@>= 2.9.0", moment@^2.20.0:
-  version "2.22.2"
-  resolved "https://registry.yarnpkg.com/moment/-/moment-2.22.2.tgz#3c257f9839fc0e93ff53149632239eb90783ff66"
-  integrity sha1-PCV/mDn8DpP/UxSWMiOeuQeD/2Y=
+  version "2.24.0"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.24.0.tgz#0d055d53f5052aa653c9f6eb68bb5d12bf5c2b5b"
+  integrity sha512-bV7f+6l2QigeBBZSM/6yTNq4P2fNpSWj/0e7jQcy87A8e7o2nAfP/34/2ky5Vw4B9S446EtIhodAzkFCcR4dQg==
 
 morgan@^1.9.1:
   version "1.9.1"
@@ -1634,9 +1634,9 @@ ms@2.0.0:
   integrity sha1-VgiurfwAvmwpAd9fmGF4jeDVl8g=
 
 ms@^2.1.1:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.1.tgz#30a5864eb3ebb0a66f2ebe6d727af06a09d86e0a"
-  integrity sha512-tgp+dl5cGk28utYktBsrFqA7HKgrhgPsg6Z/EfhWI4gl1Hwq8B/GmY/0oXZ6nF8hDVesS/FpnYaD/kOWhYQvyg==
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.2.tgz#d09d1f357b443f493382a8eb3ccd183872ae6009"
+  integrity sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==
 
 mysql2@^1.6.4:
   version "1.6.4"
@@ -2204,10 +2204,15 @@ semver-diff@^2.0.0:
   dependencies:
     semver "^5.0.3"
 
-"semver@2 || 3 || 4 || 5", semver@^5.0.3, semver@^5.1.0, semver@^5.3.0, semver@^5.5.0:
+"semver@2 || 3 || 4 || 5", semver@^5.0.3, semver@^5.1.0, semver@^5.3.0:
   version "5.6.0"
   resolved "https://registry.yarnpkg.com/semver/-/semver-5.6.0.tgz#7e74256fbaa49c75aa7c7a205cc22799cac80004"
   integrity sha512-RS9R6R35NYgQn++fkDWaOmqGoj4Ek9gGs+DPxNUZKuwE183xjJroKvyo1IzVFeXvUrvmALy6FWD5xrdJT25gMg==
+
+semver@^5.5.0:
+  version "5.7.0"
+  resolved "https://registry.yarnpkg.com/semver/-/semver-5.7.0.tgz#790a7cf6fea5459bac96110b29b60412dc8ff96b"
+  integrity sha512-Ya52jSX2u7QKghxeoFGpLwCtGlt7j0oY9DYb5apt9nPlJ42ID+ulTXESnt/qAQcoSERyZ5sl3LDIOw0nAn/5DA==
 
 send@0.16.2:
   version "0.16.2"
@@ -2234,16 +2239,16 @@ seq-queue@0.0.5:
   integrity sha1-1WgS4cAXpuTnw+Ojeh2m143TyT4=
 
 sequelize@^4.41.2:
-  version "4.41.2"
-  resolved "https://registry.yarnpkg.com/sequelize/-/sequelize-4.41.2.tgz#bb9ba30d72e9eeb883c9861cd0e2cac672010883"
-  integrity sha512-8vPf2R0o9iEmtzkqNzwFdblO+0Mu+RNxOdLeYGGqWGlp3cushLpQucAeSGPQgf2hQVZP5yOCM1ouZKTQ5FTlvA==
+  version "4.44.2"
+  resolved "https://registry.yarnpkg.com/sequelize/-/sequelize-4.44.2.tgz#2dcd1b1e436d2cbb97c909e35e7ecf7cbc9ec6f1"
+  integrity sha512-XYHpjlq9zNNvQNR1g2aSrMs6OWv9ira6iXAeyyaCvlO/W1zhDc6BT/KaphJ49Z+0ss7zHTK6Nso1v13bNf2pOA==
   dependencies:
     bluebird "^3.5.0"
     cls-bluebird "^2.1.0"
     debug "^3.1.0"
     depd "^1.1.0"
     dottie "^2.0.0"
-    generic-pool "^3.4.0"
+    generic-pool "3.5.0"
     inflection "1.12.0"
     lodash "^4.17.1"
     moment "^2.20.0"
@@ -2319,9 +2324,9 @@ shell-quote@^1.4.3:
     jsonify "~0.0.0"
 
 shimmer@^1.1.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/shimmer/-/shimmer-1.2.0.tgz#f966f7555789763e74d8841193685a5e78736665"
-  integrity sha512-xTCx2vohXC2EWWDqY/zb4+5Mu28D+HYNSOuFzsyRDRvI/e1ICb69afwaUwfjr+25ZXldbOLyp+iDUZHq8UnTag==
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/shimmer/-/shimmer-1.2.1.tgz#610859f7de327b587efebf501fb43117f9aff337"
+  integrity sha512-sQTKC1Re/rM6XyFM6fIAGHRPVGvyXfgzIDvzoq608vM+jeyVD0Tu1E6Np0Kc2zAIFWIj963V2800iF/9LPieQw==
 
 signal-exit@^3.0.0, signal-exit@^3.0.2:
   version "3.0.2"
@@ -2727,9 +2732,9 @@ validate-npm-package-license@^3.0.1:
     spdx-expression-parse "^3.0.0"
 
 validator@^10.4.0:
-  version "10.9.0"
-  resolved "https://registry.yarnpkg.com/validator/-/validator-10.9.0.tgz#d10c11673b5061fb7ccf4c1114412411b2bac2a8"
-  integrity sha512-hZJcZSWz9poXBlAkjjcsNAdrZ6JbjD3kWlNjq/+vE7RLLS/+8PAj3qVVwrwsOz/WL8jPmZ1hYkRvtlUeZAm4ug==
+  version "10.11.0"
+  resolved "https://registry.yarnpkg.com/validator/-/validator-10.11.0.tgz#003108ea6e9a9874d31ccc9e5006856ccd76b228"
+  integrity sha512-X/p3UZerAIsbBfN/IwahhYaBbY68EN/UQBWHtsbXGT5bfrH/p4NQzUCG1kF/rtKaNpnJ7jAu6NGTdSNtyNIXMw==
 
 vary@~1.1.2:
   version "1.1.2"
@@ -2758,9 +2763,9 @@ widest-line@^2.0.0:
     string-width "^2.1.1"
 
 wkx@^0.4.1:
-  version "0.4.5"
-  resolved "https://registry.yarnpkg.com/wkx/-/wkx-0.4.5.tgz#a85e15a6e69d1bfaec2f3c523be3dfa40ab861d0"
-  integrity sha512-01dloEcJZAJabLO5XdcRgqdKpmnxS0zIT02LhkdWOZX2Zs2tPM6hlZ4XG9tWaWur1Qd1OO4kJxUbe2+5BofvnA==
+  version "0.4.7"
+  resolved "https://registry.yarnpkg.com/wkx/-/wkx-0.4.7.tgz#ba0e4f9e785e95c9975856c1834f19a95c65cfb5"
+  integrity sha512-pHf546L96TK8RradLt1cWaIffstgv/zXZ14CGz5KnBs1AxBX0wm+IDphjJw0qrEqRv8P9W9CdTt8Z1unMRZ19A==
   dependencies:
     "@types/node" "*"
 
